@@ -1,0 +1,26 @@
+*{
+    padding:0;
+}
+
+body{
+    text-align: center;
+    color: white;
+}
+    
+.main-menu{
+    background-color: black;
+    text-align: left;
+    
+}
+
+.logo-top{
+    background-color: darkgray;
+}
+
+.block-element{
+    background-image: url("../img/iphone11pro.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem 5rem 40rem;
+}
