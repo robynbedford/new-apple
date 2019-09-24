@@ -14,11 +14,9 @@ body{
 }
 
 .search{
-    padding: 0.5rem 10rem 0.5rem 10rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
     background-color: black;
-    /* border-bottom: thin solid darkgrey; */
+    border-bottom: thin solid darkgrey;
+    padding-bottom: 1rem;
 }
     
 .main-menu{
@@ -35,7 +33,7 @@ body{
 }
 
 .end-item{
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
     padding-top: 1rem;
     border-bottom: thin solid darkgrey;
     padding-left: 3rem;
@@ -46,13 +44,23 @@ a:link{
     color: white;
   }
 
+.product-name {
+    font-size: 2em;
+    padding-bottom: 0.5rem;
+}
+
+.product-type{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.price{
+    color: grey;
+}
+
 .heading{
     padding-top: 2rem;
     background-color: black;
-}
-
-.heading3{
-    color: grey;
 }
 
 .block-element{
@@ -72,20 +80,32 @@ a:link{
     color: black;
 }
 
-.text{
-    padding-bottom: 0.5rem;
-}
-
 .links{
     color: lightblue;
     padding-top: 2rem;
     display: inline-block;
+    font-size: 1.25rem;
 }
 
-.links2{
-    padding-top: 2rem;
-}
 
 .learnmore{
     padding-right: 2rem;
+}
+
+.block-element3{
+    background-image: url("../img/applewatch.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem 5rem 40rem;
+    color: black;
+}
+
+.watch{
+    padding-top: 1rem;
+    font-size: 1.25rem;
+}
+
+.watch-text{
+    font-size: 1.25rem;
 }
