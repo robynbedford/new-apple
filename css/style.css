@@ -2,8 +2,11 @@ body{
     font-family: 'Roboto', sans-serif;
     text-align: center;
     color: white;
-    margin-left: 10rem;
-    margin-right: 10rem;
+}
+
+.container{
+    max-width: 50rem;
+    margin: 0 auto;
 }
 
 .logo-top{
@@ -11,9 +14,11 @@ body{
 }
 
 .search{
+    padding: 0.5rem 10rem 0.5rem 10rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
     background-color: black;
-    border-bottom: thin solid darkgrey;
-    padding-bottom: 1rem;
+    /* border-bottom: thin solid darkgrey; */
 }
     
 .main-menu{
@@ -27,6 +32,13 @@ body{
     border-bottom: thin solid darkgrey;
     margin-inline-start: 3rem;
     margin-inline-end: 3rem;
+}
+
+.end-item{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-bottom: thin solid darkgrey;
+    padding-left: 3rem;
 }
 
 a:link{
@@ -58,6 +70,10 @@ a:link{
     background-size: cover;
     padding: 2rem 5rem 40rem;
     color: black;
+}
+
+.text{
+    padding-bottom: 0.5rem;
 }
 
 .links{
