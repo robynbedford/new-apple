@@ -1,20 +1,48 @@
-*{
-    padding:0;
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 body{
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     color: white;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.logo-top{
+    background-color: black;
+}
+
+.search{
+    background-color: black;
+    border-bottom: thin solid darkgrey;
+    padding-bottom: 1rem;
 }
     
 .main-menu{
     background-color: black;
     text-align: left;
-     
 }
 
-.logo-top{
-    background-color: darkgray;
+.menu-item{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-bottom: thin solid darkgrey;
+    margin-inline-start: 3rem;
+    margin-inline-end: 3rem;
+}
+
+a:link{
+    text-decoration: none;
+    color: white;
+  }
+
+.heading{
+    padding-top: 2rem;
+    background-color: black;
+}
+
+.heading3{
+    color: grey;
 }
 
 .block-element{
@@ -23,4 +51,27 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     padding: 2rem 5rem 40rem;
+}
+
+.block-element2{
+    background-image: url("../img/iphone11.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem 5rem 40rem;
+    color: black;
+}
+
+.links{
+    color: lightblue;
+    padding-top: 2rem;
+    display: inline-block;
+}
+
+.links2{
+    padding-top: 2rem;
+}
+
+.learnmore{
+    padding-right: 2rem;
 }
