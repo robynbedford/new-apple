@@ -9,8 +9,21 @@ body{
     margin: 0 auto;
 }
 
+.exit{
+    color: white;
+    text-align: left;
+    background: black;
+    padding-left: 2rem;
+}
+
 .logo-top{
     background-color: black;
+}
+
+.cart{
+    background-color: black;
+    padding-right: 2rem;
+    text-align: right;
 }
 
 .search{
@@ -18,7 +31,26 @@ body{
     border-bottom: thin solid darkgrey;
     padding-bottom: 1rem;
 }
-    
+
+input.searchbox{
+    color:white;
+    background-color: #606060;
+    width: 80%;
+    height: auto;
+    border-radius: 1rem;
+    padding: 0.5rem 0 0.5rem 0;
+    border: none;
+    text-align: center;
+    background-image: url(../img/search.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 1rem;
+}
+
+::-webkit-input-placeholder{
+    color:#D3D3D3;
+}
+
 .main-menu{
     background-color: black;
     text-align: left;
