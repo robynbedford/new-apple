@@ -71,7 +71,7 @@ input.searchbox{
     padding-left: 3rem;
 }
 
-a:link{
+a {
     text-decoration: none;
     color: white;
   }
@@ -112,15 +112,15 @@ a:link{
     color: black;
 }
 
-.links{
+.order-links{
     color: lightblue;
     padding-top: 2rem;
     display: inline-block;
     font-size: 1.25rem;
 }
 
-
-.learnmore{
+.order-links a {
+    color:#3BB9FF;
     padding-right: 2rem;
 }
 
