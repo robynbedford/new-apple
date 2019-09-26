@@ -34,7 +34,7 @@ body{
 
 input.searchbox{
     color:white;
-    background-color: #606060;
+    background-color: #696969;
     width: 80%;
     height: auto;
     border-radius: 1rem;
@@ -60,8 +60,8 @@ input.searchbox{
     padding-bottom: 1rem;
     padding-top: 1rem;
     border-bottom: thin solid darkgrey;
-    margin-inline-start: 3rem;
-    margin-inline-end: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 .end-item{
